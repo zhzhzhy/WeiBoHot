@@ -28,5 +28,5 @@ python3 WeiBoHot.py
 Sina open hot search rank page: https://s.weibo.com/top/summary/
 # How dose it look like?
 Here is the example:
-
+![](/img/result.png)
 
