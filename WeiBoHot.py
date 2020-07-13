@@ -38,11 +38,13 @@ for tr in (data):
     hot_score = tr.xpath('./span/text()')
     length = len(str(num)+title[0])+1       #Total length of row char number
     zh_count = str_count(title[0])          #Number of chinese char(width of two English words)
-    indent = 50-(length-zh_count)-2*zh_count   #Indent of blank space
+    indent = 40-(length-zh_count)-2*zh_count   #Indent of blank space
 #   print(zh_count)
     num += 1
     # Filter the 0 result
     if num == 0:
         pass
     else:
+        if indent <= 0:
+            indent = 1
         print('{}.{}'.format(num,title[0]),'{}'.format(' '*indent+'微博热度:'+hot_score[0]))
