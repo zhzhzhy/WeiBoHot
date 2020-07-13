@@ -26,12 +26,12 @@ headers={
 }
 
 r = requests.get(url,headers=headers)
-print(r.status_code)
 html_xpath = etree.HTML(r.text)
 data = html_xpath.xpath('//*[@id="pl_top_realtimehot"]/table/tbody/tr/td[2]')
 num = -1
 data_time = time.strftime('%Y{y}%m{m}%d{d}%H{h}',time.localtime()).format(y='年', m='月', d='日',h='时')
-print('{}\n\n'.format(data_time+'数据'))
+print('{}'.format(data_time+'数据'))
+print("Status: ",r.status_code,"\n\n")
 
 for tr in (data):
     title = tr.xpath('./a/text()')
