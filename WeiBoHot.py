@@ -1,5 +1,5 @@
 # -*- coding=UTF-8 -*-
-#!usr/bin/python
+#!/usr/bin/env python3
 
 # import os
 import time
@@ -28,12 +28,10 @@ print('{}\n\n'.format(data_time+'数据'))
 for tr in (data):
     title = tr.xpath('./a/text()')
     hot_score = tr.xpath('./span/text()')
-    
     num += 1
-
-    # 过滤第 0 条
+    # Filter the 0 result
     if num == 0:
         pass
     else:
-            print('{}.{}\n'.format(num,title[0]))
-            print('{} {}\n\n'.format('微博热度：',hot_score[0]))
+        print('{}.{} {}'.format(num,title[0],'微博热度:'+hot_score[0]))
+            # print('{} {}\n'.format('微博热度：',hot_score[0]))
