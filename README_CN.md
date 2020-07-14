@@ -1,7 +1,7 @@
 # 命令行微博热搜
 一句命令查看微博热搜榜，了解当下正在发生的大事
 有什么用？Linux用户无需离开命令行查看热搜 ~~运维人员上班摸鱼神器
-![English Users click here](https://github.com/zhzhzhy/WeiBoHot/blob/master/README.md)
+[English Users click here](https://github.com/zhzhzhy/WeiBoHot/blob/master/README.md)
 # 运行环境安装与配置
 - 安装 Python 3.0 + 
 - 安装Python依赖包: requests lxml
