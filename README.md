@@ -1,7 +1,7 @@
 # WeiBo Hot(A command line based Hot_Search Looking up)
 This is a Python script which can use WeiBo_hot search page to generate Simple result on What's going on in China(for reference only)
 
-[中文用户请点击](https://github.com/zhzhzhy/WeiBoHot/blob/master/README_CN.md)
+中文用户[请点击](https://github.com/zhzhzhy/WeiBoHot/blob/master/README_CN.md)
 # Running Environment Confiuration
 - Install Python 3.0 + First
 - Install Requirement: requests lxml
