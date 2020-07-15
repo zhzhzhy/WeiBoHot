@@ -3,6 +3,8 @@
 
 有什么用？Linux用户无需离开命令行查看热搜 ~~运维人员上班摸鱼神器~~
 
+Python Script 根据[weibo_Hot_Search项目](https://github.com/Writeup001/weibo_Hot_Search)修改，感谢Writeup大佬的项目支持
+
 English Users [Click here](https://github.com/zhzhzhy/WeiBoHot/blob/master/README.md)
 ## 运行环境安装与配置
 - 安装 Python 3.0 + 
