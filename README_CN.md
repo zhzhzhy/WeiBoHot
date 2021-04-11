@@ -6,6 +6,17 @@
 Python Script 根据[weibo_Hot_Search项目](https://github.com/Writeup001/weibo_Hot_Search)修改，感谢Writeup大佬的项目支持
 
 English Users [Click here](https://github.com/zhzhzhy/WeiBoHot/blob/master/README.md)
+
+<!-- vim-markdown-toc GFM -->
+
+* [运行环境安装与配置](#运行环境安装与配置)
+* [运行](#运行)
+	* [Linux用户](#linux用户)
+* [数据来源](#数据来源)
+* [效果如何？](#效果如何)
+
+<!-- vim-markdown-toc -->
+
 ## 运行环境安装与配置
 - 安装 Python 3.0 + 
 - 安装Python依赖包: requests lxml

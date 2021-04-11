@@ -4,6 +4,17 @@ This is a Python script which can use WeiBo_hot search page to generate Simple r
 Thanks for Project [weibo_Hot_Search](https://github.com/Writeup001/weibo_Hot_Search)
 
 中文用户[请点击](https://github.com/zhzhzhy/WeiBoHot/blob/master/README_CN.md)
+
+<!-- vim-markdown-toc GFM -->
+
+* [Running Environment Confiuration](#running-environment-confiuration)
+* [Running](#running)
+	* [For Linux Based users](#for-linux-based-users)
+* [Where does the data come from?](#where-does-the-data-come-from)
+* [What dose it look like?](#what-dose-it-look-like)
+
+<!-- vim-markdown-toc -->
+
 ## Running Environment Confiuration
 - Install Python 3.0 + First
 - Install Requirement: requests lxml
